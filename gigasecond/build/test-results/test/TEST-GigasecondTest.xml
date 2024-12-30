@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GigasecondTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-12-28T17:29:33" hostname="fedora" time="0.036">
+  <properties/>
+  <testcase name="withFullTimeSpecified()" classname="GigasecondTest" time="0.03"/>
+  <testcase name="modernTime()" classname="GigasecondTest" time="0.0"/>
+  <testcase name="beforeEpochTime()" classname="GigasecondTest" time="0.0"/>
+  <testcase name="afterEpochTime()" classname="GigasecondTest" time="0.0"/>
+  <testcase name="withFullTimeSpecifiedAndDayRollover()" classname="GigasecondTest" time="0.0"/>
+  <testcase name="doesNotMutateInput()" classname="GigasecondTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
