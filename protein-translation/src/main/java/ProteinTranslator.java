@@ -27,32 +27,23 @@ class ProteinTranslator {
     );
 
     List<String> translate(String rnaSequence) {
-        return makeSlicesOfThree(rnaSequence).stream().map(codons::get).toList();
-    }
-
-    private List<String> makeSlicesOfThree(String rnaSequence) {
         int sliceSize = 3;
         List<String> res = new ArrayList<>();
         for (int i = 0; i < rnaSequence.length(); i += sliceSize) {
-            String nextCodon = rnaSequence.substring(i, i + sliceSize);
-            if (isStopOrInvalid(nextCodon)) {
-                break;
-            }
-            res.add(nextCodon);
-            if (!(i + sliceSize == rnaSequence.length()) && (i + 2 * sliceSize > rnaSequence.length())) {
+            if (i + 3 <= rnaSequence.length()) {
+                String protein = codons.get(rnaSequence.substring(i, i + sliceSize));
+                if (protein == null) {
+                    throw new IllegalArgumentException("Invalid codon");
+                }
+                if ("STOP".equals(protein)) {
+                    break;
+                }
+                res.add(protein);
+            } else {
                 throw new IllegalArgumentException("Invalid codon");
             }
-
         }
         return res;
-    }
-
-    private boolean isStopOrInvalid(String codeon) {
-        String codon = codons.get(codeon);
-        if (null == codon) {
-            throw new IllegalArgumentException("Invalid codon");
-        }
-        return "STOP".equals(codon);
     }
 
 }

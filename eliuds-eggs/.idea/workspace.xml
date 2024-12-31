@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b07b0178-c40f-47ff-b950-f75fe63e5d2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protein-translation/.gradle/8.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../protein-translation/.gradle/8.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protein-translation/.gradle/8.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../protein-translation/.gradle/8.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protein-translation/.gradle/8.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../protein-translation/.gradle/8.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protein-translation/.gradle/8.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../protein-translation/.gradle/8.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protein-translation/.gradle/8.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../protein-translation/.gradle/8.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protein-translation/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../protein-translation/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protein-translation/build/classes/java/main/ProteinTranslator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../protein-translation/build/classes/java/main/ProteinTranslator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protein-translation/build/reports/tests/test/classes/ProteinTranslatorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../protein-translation/build/reports/tests/test/classes/ProteinTranslatorTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protein-translation/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../protein-translation/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protein-translation/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/../protein-translation/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protein-translation/build/test-results/test/TEST-ProteinTranslatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../protein-translation/build/test-results/test/TEST-ProteinTranslatorTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protein-translation/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../protein-translation/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protein-translation/build/tmp/compileJava/compileTransaction/stash-dir/ProteinTranslator.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/../protein-translation/build/tmp/compileJava/compileTransaction/stash-dir/ProteinTranslator.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protein-translation/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../protein-translation/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protein-translation/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../protein-translation/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protein-translation/src/main/java/ProteinTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../protein-translation/src/main/java/ProteinTranslator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +35,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/azul-21.0.5/lib/src.zip!/java.base/java/util/BitSet.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -43,7 +61,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/tetio/lab/exercism/java/protein-translation"
+    "last_opened_file_path": "/home/tetio/lab/exercism/java/say"
   }
 }]]></component>
   <component name="RunManager" selected="Gradle.EliudsEggsTest">
