@@ -71,6 +71,7 @@ public class SayTest {
     public void oneThousandTwoHundredThirtyFour() {
         assertThat(say.say(1_234)).isEqualTo("one thousand two hundred thirty-four");
     }
+
     @Test
     public void oneMillion() {
         assertThat(say.say(1_000_000)).isEqualTo("one million");
@@ -93,14 +94,12 @@ public class SayTest {
                         " three hundred twenty-one thousand one hundred twenty-three");
     }
 
-    @Disabled("Remove to run test")
     @Test
     public void illegalNegativeNumber() {
         assertThatExceptionOfType(IllegalArgumentException.class)
                 .isThrownBy(() -> say.say(-1));
     }
 
-    @Disabled("Remove to run test")
     @Test
     public void illegalTooBigNumber() {
         assertThatExceptionOfType(IllegalArgumentException.class)
